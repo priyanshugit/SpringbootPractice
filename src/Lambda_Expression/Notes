@@ -1,0 +1,26 @@
+What is Lambda Expression?
+
+Lambda is a anonymous Function
+    -No Name
+    -No Modifier
+    -No Return Type
+Lambda expression can only be used with functional interfaces.
+Lambda expression can not be used with simple interface
+
+Benefits of Lambda
+-Reduces line of code
+-Sequential and parallel execution support by passing behaviour ad a argument in methods.
+-To call APIs very effectively
+-To write more Readable, Maintainable and concise code.
+
+Important Rules of Lambda
+-If the body of Lambda Expression contain only one statement then curly braces are optional.
+-Java compiler also infer the type of variable passed in arguments, hence type is optional.
+
+Functional Interface?
+If the interface contains only one abstract method then it is a functional interface.
+Ex : Runnable, Callable, Comprable etc.
+
+To call Lambda we require functional interface.
+Lambda is used to implement functional interface in very simple and short manner.
+
